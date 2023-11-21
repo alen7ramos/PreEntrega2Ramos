@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #8B6A6B;
+    font-family: 'Urbanist', sans-serif;
+    margin: 20px;
+    padding: 25px;
+}
+
+.logo {
+    margin: 5px auto;
+    display: block;
+}
+
+nav .container-fluid {
+    background-color: #506C64;
+}
+
+.nav li a {
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    color: #110D0D;
+    font-size: 3rem;
+}
+.nav li a:hover {
+    color: #8B6A6B;
+
+}
+
+.subtitulo {
+    color: #110D0D;
+    font-size: 3rem;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem auto;
+    padding: 5px;
+}
+
+.img1 {
+    width: 20%;
+    height: auto;
+}
+
+.img2 { 
+    width: 20%;
+    height: auto;
+}
+
+.img3 {
+    width: 20%;
+    height: auto;
+}
+
+.citaAutor {
+    color: #EDE9E9;
+    font-size: 3rem;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.autorCita {
+    color: #EDE9E9;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.carousel-inner {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #EDE9E9;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.subtituloParrafo {
+    color: #110d0daf;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 15px;
+    margin: 7px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    color: #110D0D;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    padding: 10px 70px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.footer {
+    color: #EDE9E9;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    padding: 10px 3px 0 5px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.form {
+    background-color: #EDE9E9;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+
+}
+
+.formContenedor {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.formTitle {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+.formInput {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #8B6A6B;
+    border-radius: 0.2em;
+}
+.formInput--message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.formCta {
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #8B6A6B;
+    color: #110D0D;
+    border: none;
+    font-weight: 600;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+}
+
